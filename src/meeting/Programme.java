@@ -10,4 +10,8 @@ public class Programme {
     {
         this.programSlots = slots;
     }
+
+   public Integer getNumberOfSlots(){
+       return this.programSlots.length;
+   }
 }
